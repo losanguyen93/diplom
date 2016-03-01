@@ -1,0 +1,44 @@
+2016-02-28 18:04:00,222   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-28 18:04:00,748   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 09:51:28,014   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 09:51:28,524   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 10:04:49,164   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 10:04:49,527   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 10:46:47,123   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 10:46:47,557   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 11:03:58,176   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 11:03:58,693   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 11:04:14,467   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 11:04:14,848   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 11:17:29,165   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 11:17:29,543   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 11:31:37,632   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 11:31:38,079   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 11:37:11,812   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 11:37:12,190   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 11:58:48,541   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 11:58:48,991   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:01:27,210   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:01:27,570   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:09:29,740   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:09:30,110   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:11:39,740   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:11:40,135   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:12:23,187   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:12:23,555   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:16:00,803   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:16:01,325   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:16:33,651   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:16:34,033   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:17:09,001   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:17:09,425   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:22:02,486   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:22:02,858   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:26:04,802   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:26:05,253   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:27:42,310   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:27:42,686   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 12:29:56,500   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 12:29:56,866   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868
+2016-02-29 20:13:06,570   ibmiotf.device.Client      WARNING Unable to encrypt messages because TLSv1.2 is unavailable (MQTT over SSL requires at least Python v2.7.9 or 3.4 and openssl v1.0.1)
+2016-02-29 20:13:07,026   ibmiotf.device.Client      INFO    Connected successfully: d:7dpe4n:MQTTDevice:b827ebe69868

@@ -1,5 +1,4 @@
-import sys
-import RPi.GPIO as GPIO
+ДиКаприоДиКаприоimport sys
 import pprint
 import uuid
 import time
@@ -9,23 +8,27 @@ from uuid import getnode as get_mac
 import grovepi
 devicecli = None
 
-#Define command tracer
-def myCommandCallback(cmd):
-       if cmd.command == 'signal':
+#Define command tracer 
+def myCommandCallback(event):
+       if cmd.command == "signal":
         result = cmd.data['result']
         print ("Command received, result = %d" %result)
 
-# Initialize the device client.
+# Initialize the device client.        
 sensor = 0
 try:
 
     #Parse config file
     options = ibmiotf.device.ParseConfigFile("/home/pi/diplom/device.cfg")
 
-    #Connect with Bluemix IoT
+     #Initialize callback
+    devicecli.commandCallback = myCommandCallback
+#Connect with Bluemix IoT
     devicecli = ibmiotf.device.Client(options)
     devicecli.connect()
+    #Initialize callback
     devicecli.commandCallback = myCommandCallback
+    #Send Data from temperatyre sensor to IoT service
     while True:
         try:
            temp = grovepi.temp(sensor,'1.1')
@@ -40,3 +43,4 @@ try:
 
 except ibmiotf.ConnectionException  as e:
     print e
+

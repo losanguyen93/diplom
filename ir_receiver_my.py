@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-#
 # GrovePi Example for using the Grove - Infrared Receiver (http://www.seeedstudio.com/depot/Grove-Infrared-Receiver-p-994.html)
 #
 # The GrovePi connects the Raspberry Pi and Grove sensors.  You can learn more about GrovePi here:  http://www.dexterindustries.com/GrovePi
@@ -33,22 +31,37 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 '''
 
-# NOTE: 
-#		Connect the IR sensor to any port. In the code use the pin as port+1. So if you are connecting the sensor to port 7, use "ir_recv_pin(8)"
+# NOTE:
+#               Connect the IR sensor to any port. In the code use the pin as port+1. So if you are connecting the sensor to port 7, use "ir_recv_pin(8)"
 import time
 import grovepi
 
-grovepi.ir_recv_pin(8)
+#Detector IR
+sensor = 7
+grovepi.pinMode(sensor,"INPUT")
+#______________________________
+grovepi.ir_recv_pin(7)
 print ("Press any button on the remote to see the data")
 while True:
-	ir_data_back=grovepi.ir_read_signal()
-	if ir_data_back[0]==-1:		#IO Error
-		print ("Error")
-		pass
-	elif ir_data_back[0]==0:	#Old signal
-		print ("Old signal")
-		pass
+ try:
+        # Sensor returns LOW and onboard LED lights up when the
+        # received infrared light intensity exceeds the calibrated level
+        if grovepi.digitalRead(sensor) == 0:
+            	print ("found something")
+	        ir_data_back=grovepi.ir_read_signal()
+              #  if ir_data_back[0]==-1:         #IO Error
+              #  	print ("Error")
+              #  	pass
+        #	elif ir_data_back[0]==0:        #Old signal
+        #        	print ("Old signal")
+        #        	pass
+
+        #	else:
+               	print (ir_data_back[1:])                #Current signal from IR remote
+        	
 
 	else:
-		print (ir_data_back[1:])		#Current signal from IR remote
-	time.sleep(.1)
+            	print ("nothing")
+	    	time.sleep(.1)
+ except IOError:
+	print ("Error")
